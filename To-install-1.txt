@@ -1,0 +1,33 @@
+for ngx-admin charts:
+npm i @angular-materials/ngx-admin
+npm install --save @nebular/theme @angular/cdk @angular/animations
+npm i ngx-charts
+
+
+for ngx-charts:
+npm i @swimlane/ngx-charts
+
+for chartjs:
+npm i chartjs
+npm i chartjs-plugin-datalabels
+
+for live data:
+npm i chartjs-plugin-streaming
+
+
+
+adding dep in styles: 
+"styles": [
+  "node_modules/@nebular/theme/styles/prebuilt/default.css", // or cosmic.css
+],
+
+
+adding ro scripts: 
+"node_modules/tinymce/tinymce.min.js",
+              "node_modules/tinymce/themes/modern/theme.min.js",
+              "node_modules/tinymce/plugins/link/plugin.min.js",
+              "node_modules/tinymce/plugins/paste/plugin.min.js",
+              "node_modules/tinymce/plugins/table/plugin.min.js",
+              "node_modules/echarts/dist/echarts.min.js",
+              "node_modules/echarts/dist/extension/bmap.min.js",
+              "node_modules/chart.js/dist/Chart.min.js"
